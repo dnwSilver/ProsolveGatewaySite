@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <LangVersion>8</LangVersion>
+        <RootNamespace>Sharpdev.SDK</RootNamespace>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="9.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+        <ProjectReference Include="..\Sharpdev.SDK.Extensions\Sharpdev.SDK.Extensions.csproj" />
+        <ProjectReference Include="..\Sharpdev.SDK.Types\Sharpdev.SDK.Types.csproj" />
+    </ItemGroup>
+    
+</Project>
